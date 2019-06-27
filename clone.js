@@ -28,6 +28,7 @@ const CLONE_SYMBOLS_FLAG = 4
  * // => true
  */
 function clone(value) {
+  console.log("test")
   return baseClone(value, CLONE_SYMBOLS_FLAG)
 }
 
